@@ -1,0 +1,34 @@
+Projekt dotyczy stworzenia serwisu www zgodnie z wytycznymi:
+a. HTML + CSS [+ elementy JS opcjonalnie] (mamy)
+b. Można skorzystać z frameworka BOOTSTRAP (mamy)
+c. Strona responsywna dla:
+i. Małych, średnich i dużych urządzeń [student sam decyduje jakie
+wartości breakpointów zastosuje]
+d. Strona zawiera:
+i. Belka górna: (mamy - potrzebujemy umieścic logo w belce)
+1. Widoczne/przyklejone [nawet podczas scrollowania w dół] na
+górze menu prowadzące do stron/miejsc. (mamy)
+2. Logo firmy. (logo w images - do umieszczenia na stronie)
+ii. Jumbotron/hero unit zawierający wprowadzającą : (mamy)
+1. grafikę, (jest)
+2. tekst,   (jest)
+3. przycisk „call to action”. (pytanie co umieszczamy pod buttonem)
+iii. kontener z główną zawartością w zależności od tematyki strony:
+1. dla dużych urządzeń wielokolumnowy układ
+produktów/usług/portfolio a dla najmniejszych
+jednokolumnowy.
+iv. kontener z opiniami klientów
+v. formularz kontaktowy 
+vi. interaktywną mapę z informacją o adresie firmy (mamy)
+vii. stopkę strony z danymi studenta [imię i nazwisko] (mamy)
+viii. przyciski
+ix. ikony
+x. linki
+xi. grafiki
+e. W kodzie komentarze
+f. Odpowiednia kolorystyka
+g. Estetyka
+h. Czytelność
+i. Responsywność
+j. Tekst i grafiki związane z tematem strony
+k. I inne ...
