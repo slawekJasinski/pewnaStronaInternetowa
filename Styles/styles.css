@@ -1,4 +1,322 @@
-		.jumbotron {
+    
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*globalne style tekstu*/
+
+p{
+    margin-top: 6px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#7f8c8d;
+    line-height: 1.7;
+}
+h2,h3,h4,label{
+    color:#45474f; 
+}
+
+h1{
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+h1,h3,h4,strong{
+    font-weight: 600;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.col-one-third,.col-half{
+    width:90px;
+    height:auto;
+    float:none;
+    margin:auto;
+}
+
+@media screen and (min-width: 960px){
+    .col-one-third{
+        width:33.3333%;
+        float:left;
+    }
+    .col-half{
+        width:50%;
+        float:left;
+    }
+}
+
+section{
+    clear:both;
+    padding:90px 0;
+    overflow: auto;
+}
+
+.container{
+    max-width:1024px;
+    margin:0 auto;
+}
+
+.center-text{
+    text-align:center;
+    
+}
+
+/*przyciski*/
+
+.button{
+    display: inline-block;
+    padding: 8px 20px;
+    margin:16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-light{
+    background: #ffffff;
+    color:black;
+}
+
+.button-dark{
+    background:#a1d76f;
+    color:white;
+}
+/*Tymczasowy styl dla banera*/
+.banner h1{
+    margin-bottom: 60px;
+}
+
+.banner{
+    color: #ffffff;
+    padding:200px 0;
+    background: url("img/backgroundphoto.jpg") center;
+    background-size: cover;
+}
+
+.top{
+    height:60px;
+    background: #34495e;
+}
+
+.top a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.logo{
+    float:left;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.main-menu{
+    float:right;
+}
+
+.main-menu li{
+    float: left;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+.intro img{
+    margin-bottom: 32px;
+    width:180px;
+    height:180px;
+}
+
+.intro h3{
+    color: #a1d76f;
+    margin-bottom: 10px;
+}
+
+/* promo */
+
+.promo{
+    background: #d15555;
+    height:280px;
+}
+
+.promo img {
+    margin-bottom: 32px;
+    width: 330px;
+    height: 230px;
+}
+
+/* Sekcja kontakt */ 
+
+.contact input{
+    margin-bottom: 16px;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    width:80%;
+}
+
+.contact .col-half{
+    margin-top:16px;
+}
+
+section{
+    clear:both;
+    padding: 90px 0;
+    overflow: auto;
+}
+
+.site-footer{
+    background: #000000;
+    color: #ffffff;
+    padding: 16px 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+    .jumbotron {
 		    background-image: url(Images/jumbotron.jpg);
 		    background-size: cover;
 		}
