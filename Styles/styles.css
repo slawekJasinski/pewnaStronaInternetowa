@@ -316,7 +316,13 @@ html {
     scroll-behavior: smooth;
 }
 
-    .jumbotron {
-		    background-image: url(Images/jumbotron.jpg);
-		    background-size: cover;
-		}
+.jumbotron {
+	background-image: url(Images/jumbotron.jpg);
+	background-size: cover;
+}
+
+.logo img{
+    margin-bottom: 16px;
+    width: 100px;
+    height: 100px;
+}
