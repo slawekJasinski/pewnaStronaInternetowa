@@ -7,31 +7,38 @@
     <link rel="stylesheet" href="Styles/bootstrap.min.css">
    	<link rel="stylesheet" href="Styles/styles.css">
     <script defer src = "Scripts/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="Scripts/jquery.scrollTo.min.js"></script>
+    <script src="Scripts/scroll-up.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <style>
 		.jumbotron{background-image: url(Images/jumbotron.jpg); background-size: cover;}
 	</style>
 </head>
 <body>
     <div class="top bg-secondary text-white sticky-top"> <!-- menu górne zrealizowane jako sticky - 5d/1-->
-            <div class="container"> <!-- trzeba dołożyć logo - 5d/2-->
-                <nav>
-                    <div class="logo">
-                        <img src = "Images/logo.png" alt = "logo" href = "index.html">
-                    </div>
-                    <ul class="list-inline justify-content-center">
-                        <li><a class="list-inline-item" href="index.html">Start</a></li> <!-- tutaj do dostarczenia elementy strony, będą to odnośniki do poszczególnych sekcji-->
-                        <li><a class="list-inline-item" href="#Jumbotron">Treningi online</a></li>
-                        <li><a class="list-inline-item" href="#References">Referencje</a></li>
-                        <li><a class="list-inline-item" href="#Contact">Kontakt</a></li>
-                    </ul>
-                </nav>					
-            </div>
+        <div class="container"> <!-- trzeba dołożyć logo - 5d/2-->
+            <a href="#" class="scrollup"></a>
+
+            <nav>
+                <div class="logo">
+                    <img src = "Images/logo.png" alt = "logo" href = "index.html">
+                </div>
+                <ul class="list-inline justify-content-center">
+                    <li><a class="list-inline-item" href="index.html">Start</a></li> <!-- tutaj do dostarczenia elementy strony, będą to odnośniki do poszczególnych sekcji-->
+                    <li><a class="list-inline-item" href="#Jumbotron">Treningi online</a></li>
+                    <li><a class="list-inline-item" href="#References">Referencje</a></li>
+                    <li><a class="list-inline-item" href="#Contact">Kontakt</a></li>
+                </ul>
+            </nav>					
         </div>
+    </div>
+
 	<div class="jumbotron jumbotron-fluid bg-primary text-white text-center" id="#Jumbotron">
 		<h1 class = "display-5">Trener personalny Poznań</h1>              <!--nazwa naszego biznesu-->
-		<p class="lead">Sprawdź czy treningi personalne w Poznań są właśnie dla Ciebie!</p>           <!--opis naszego biznesu-->
+		<p class="lead">Sprawdź czy treningi personalne w Poznaniu są właśnie dla Ciebie!</p>           <!--opis naszego biznesu-->
 		<button class="btn btn-warning btn-lg">Umów darmowy trening!</button>          <!-- button, może jakiś href do dalszej części strony-->
 	</div>
 
@@ -40,34 +47,34 @@
 		<article class="box text-center">
 			<h3>Treningi online <span class="badge badge-danger">Nowość!</span></h3>
 			<p>Podczas pandemii też możemy ćwiczyć razem! </p>
-			<p>Wystarczy, że rozłożysz matę, włącz kamerę i zaczynamy!</p>
+			<p>Wystarczy, że rozłożysz matę, włączysz kamerę i zaczynamy!</p>
 			<h4>Tagi</h4>
 			<a href="#" class="badge badge-primary badge-pill">aplikacja</a>
 		</article> 
     </div>
-    <section>
+    <section class="intro">
 		<div class="container" id="References"> <!-- można użyć tego, co było na ostatnich zajęciach(samoukładające się elementy), ewentualnie tworzenie wg grida z kolumnami-->
-            <div class="main bg-white d-flex flex-wrap">
+            <div class="main bg-white d-flex flex-wrap justify-content-center">
                 <div class="box text-center">
-                    <img src="images/real1.jpg" alt="narzedzie">
+                    <img src="images/real1.jpg" class="img-thumbnail" alt="narzedzie">
                     <h5>1. Nowoczesna aplikacja</h5>
                     <h6></h6>
                 </div>
 
                 <div class="box text-center">
-                    <img src="images/real2.jpg" alt="narzedzie">
+                    <img src="images/real2.jpg" class="img-thumbnail" alt="narzedzie">
                     <h5>1. Nowoczesna aplikacja</h5>
                     <h6></h6>
                 </div>
 
                 <div class="box text-center">
-                    <img src="images/real3.jpg" alt="narzedzie">
+                    <img src="images/real3.jpg" class="img-thumbnail" alt="narzedzie">
                     <h5>1. Nowoczesna aplikacja</h5>
                     <h6></h6>
                 </div>
 
                 <div class="box text-center">
-                    <img src="images/real4.jpg" alt="narzedzie">
+                    <img src="images/real4.jpg" class="img-thumbnail" alt="narzedzie">
                     <h5>1. Nowoczesna aplikacja</h5>
                     <h6></h6>
                 </div>
@@ -93,7 +100,7 @@
                         <br>
                         <br>
                         <button type="submit" class="button button-dark" id="message">
-                            Wyślij do mnie wiadomość - odezwe się do Ciebie!
+                            Wyślij do mnie wiadomość - odezwę się do Ciebie!
                         </button>
                     </form>
                 </div>  

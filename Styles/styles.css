@@ -4,6 +4,11 @@
    License: none (public domain)
 */
 
+/**{
+    scroll-behavior: smooth;
+}
+*/
+
 html,
 body,
 div,
@@ -199,7 +204,6 @@ section{
 
 .center-text{
     text-align:center;
-    
 }
 
 /*przyciski*/
@@ -236,7 +240,7 @@ section{
 }
 
 .top{
-    height:60px;
+    height: 100px;
     background: #34495e;
 }
 
@@ -264,8 +268,8 @@ section{
 
 .intro img{
     margin-bottom: 32px;
-    width:180px;
-    height:180px;
+    width:500px;
+    height:auto;
 }
 
 .intro h3{
@@ -323,6 +327,26 @@ html {
 
 .logo img{
     margin-bottom: 16px;
-    width: 100px;
+    width: auto;
     height: 100px;
 }
+
+/*.box img{
+    height: 500px;
+    width: auto;
+}*/
+
+.scrollup{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("../Images/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+/*.main{
+    justify-content: center;
+}*/
