@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="Scripts/jquery.scrollTo.min.js"></script>
     <script src="Scripts/scroll-up.js"></script>
+    <script defer src="Scripts/api.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -30,6 +31,7 @@
                     <li><a class="list-inline-item" href="index.html">Start</a></li> <!-- tutaj do dostarczenia elementy strony, będą to odnośniki do poszczególnych sekcji-->
                     <li><a class="list-inline-item" href="#Jumbotron">Treningi online</a></li>
                     <li><a class="list-inline-item" href="#References">Referencje</a></li>
+                    <li><a class="list-inline-item" href="#Goals">Cele</a></li>
                     <li><a class="list-inline-item" href="#Contact">Kontakt</a></li>
                 </ul>
             </nav>					
@@ -47,38 +49,76 @@
 		<article class="box text-center">
 			<h3>Treningi online <span class="badge badge-danger">Nowość!</span></h3>
 			<p>Podczas pandemii też możemy ćwiczyć razem! </p>
-			<p>Wystarczy, że rozłożysz matę, włączysz kamerę i zaczynamy!</p>
-			<h4>Tagi</h4>
-			<a href="#" class="badge badge-primary badge-pill">aplikacja</a>
+            <p>Wystarczy, że rozłożysz matę, włączysz kamerę i zaczynamy!</p>
+            <p>Już wkrótce osiągniesz swoje cele, zobaczysz w lustrze konkretne efekty i nareszcie zmienisz kompleksy w pewność siebie. Wzbudzisz zachwyt znajomych w pracy i po godzinach, a każdy kolejny trening zapewni Ci śmiech i pozytywną motywację.</p>
 		</article> 
     </div>
-    <section class="intro">
-		<div class="container" id="References"> <!-- można użyć tego, co było na ostatnich zajęciach(samoukładające się elementy), ewentualnie tworzenie wg grida z kolumnami-->
+    <section>
+		<div class="container" id="References">
+            <h2 class="display-5 text-center">
+                Opinie o nas
+            </h2>
+             <!-- można użyć tego, co było na ostatnich zajęciach(samoukładające się elementy), ewentualnie tworzenie wg grida z kolumnami-->
             <div class="main bg-white d-flex flex-wrap justify-content-center">
-                <div class="box col-md-6 text-center">
+                <div class="box col-md-3 text-center">
                     <img src="images/real1.jpg" class="img-thumbnail" alt="narzedzie">
-                    <h5>1. Nowoczesna aplikacja</h5>
-                    <h6></h6>
+                    <h5>Matt Fraser</h5>
+                    <h6>Ćwiczyłem od jakiegoś czasu, ale moje treningi nie przynosiły żadnych efektów. Po spotkaniu  przekonałem się, że pod okiem profesjonalisty wszystko wygląda inaczej. Trening dobrany indywidualnie do potrzeb i oczekiwań, rady, wsparcie i wielka motywacja! Mam nadzieję, że będziemy trenować już do końca życia! Polecam!”</h6>
                 </div>
 
-                <div class="box col-md-6 text-center">
+                <div class="box col-md-3 text-center">
                     <img src="images/real2.jpg" class="img-thumbnail" alt="narzedzie">
-                    <h5>1. Nowoczesna aplikacja</h5>
-                    <h6></h6>
+                    <h5>Justin Meadow</h5>
+                    <h6>Panująca atmosfera przyjaznego profesjonalizmu pozwala skupić się na zdobywaniu sprawności, umiejętności i wiedzy. Mądra współpraca zapewnia bezpieczeństwo treningu oraz szybki powrót do pełnej sprawności w przypadku kontuzji. Niezależnie od poziomu sportowego, każdy odnajdzie się tu doskonale.</h6>
                 </div>
 
-                <div class="box col-md-6 text-center">
+                <div class="box col-md-3 text-center">
                     <img src="images/real3.jpg" class="img-thumbnail" alt="narzedzie">
-                    <h5>1. Nowoczesna aplikacja</h5>
+                    <h5>Thamir Fernandes</h5>
+                    <h6>Stosowałem różne diety, chodziłem na siłownię i biegałem. Robiłem niemal wszystko, by zrzucić nadwagę. Efekt był taki, że zrzucałem 3 kg i szybko wracałem do poprzedniej wagi. Poza tym chudłem nie w tych miejscach co trzeba. Okazało się, że cierpię na insulinooporność, co powodowało problemy z utratą wagi. Dopiero osobiste treningi pozwoliły mi uzyskać trwałe efekty. Dziękuję i polecam z całego serca!”</h6>
+                </div>
+
+                <div class="box col-md-3 text-center">
+                    <img src="images/real4.jpg" class="img-thumbnail" alt="narzedzie">
+                    <h5>Moslee Braedy</h5>
+                    <h6>Myślałem, że po 30 roku życia już nie można wiele osiągnąć i że gorsza sylwetka i kondycja to już normalność. Okazuje sie, że nigdy nie jest za późno na aktywność i świetne samopoczucie! Jestem szczuplejszy i sprawniejszy, ból pleców, który mi tak dokuczał gdzieś zniknął, a moje samopoczucie z dnia na dzień jest lepsze. Trening może być przyjemnością w każdym wieku! Polecam!</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="Goals">
+            <h2 class="display-5 text-center">
+                Co możemy Ci zaoferować?
+            </h2>
+            <div class="main bg-danger d-flex flex-wrap justify-content-center">
+                 <div class="box col-md-4 text-center">
+                    <img src="images/icon1.png" class="img-thumbnail" alt="narzedzie">
+                    <h4>Poprawienie sylwetki</h4>
                     <h6></h6>
                 </div>
 
-                <div class="box col-md-6 text-center">
-                    <img src="images/real4.jpg" class="img-thumbnail" alt="narzedzie">
-                    <h5>1. Nowoczesna aplikacja</h5>
+                <div class="box col-md-4 text-center">
+                    <img src="images/icon2.png" class="img-thumbnail" alt="narzedzie">
+                    <h4>Rozwój całego ciała</h4>
                     <h6></h6>
                 </div>
-                <div class="col-md-6 text-center" id="Contact">
+
+                <div class="box col-md-4 text-center">
+                    <img src="images/icon3.png" class="img-thumbnail" alt="narzedzie">
+                    <h4>Razem osiągniemy sukces!</h4>
+                    <h6></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="Contact">
+            <h2 class="display-5 text-center">
+                Gdzie nas znaleźć?
+            </h2>
+            <div class="main bg-white d-flex flex-wrap justify-content-center">
+                <div class="col-md-6 text-center">
                     <form action="">
                         <label for="name">
                             <strong>Imię i nazwisko</strong>
@@ -108,6 +148,35 @@
                 <div class="col-md-6 justify-content-center">
                     <h5>Znajdź nas</h5>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d304.37757753686685!2d16.953943498832764!3d52.38817651109466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045b0157ef01bd%3A0x8a17916f0868c923!2sCOOL-TURYSTA!5e0!3m2!1spl!2spl!4v1605302280366!5m2!1spl!2spl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6 justify-content-center">
+                    <!-- połączenie z https://jsonplaceholder.typicode.com/posts, POST, wykonanie -->
+                    <template id="single-post">
+                    <li class="post-item">
+                        <h2></h2>
+                        <p></p>
+                    </li>
+                    </template>
+                    <section id="new-post">
+                    <form>
+                        <div class="form-control">
+                        <label for="title">Nick</label>
+                        <input type="text" id="title" name="title" />
+                        </div>
+                        <div class="form-control">
+                        <label for="content">Komentarz</label>
+                        <textarea rows="3" id="content" name="body"></textarea>
+                        </div>
+                        <button type="submit">Dodaj komentarz!</button>
+                    </form>
+                    </section>
+                </div>
+                <div class="col-md-6 justify-content-center">
+                    <!-- połączenie z https://jsonplaceholder.typicode.com/posts, GET, wykonanie -->
+                    <section id="available-posts">
+                        <button>FETCH POSTS</button>
+                        <ul class="posts"></ul>
+                    </section>
                 </div>
             </div> 
         </div>
