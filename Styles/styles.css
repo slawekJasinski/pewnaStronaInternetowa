@@ -306,7 +306,7 @@ section{
 
 section{
     clear:both;
-    padding: 90px 0;
+    padding: 120px 0;
     overflow: auto;
 }
 
@@ -422,4 +422,17 @@ input:focus,
 textarea:focus {
     outline: none;
     border-color: #000053;
+}
+
+#available-posts {
+    height:200px;
+}
+
+.list-inline-item {
+    padding: 10px 10px;
+    font-size: 32px;
+}
+
+h4{
+    margin: 40px 0px;
 }
