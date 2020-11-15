@@ -227,6 +227,10 @@ section{
     background:#a1d76f;
     color:white;
 }
+
+.button-dark p{
+    margin: 0;
+}
 /*Tymczasowy styl dla banera*/
 .banner h1{
     margin-bottom: 60px;
