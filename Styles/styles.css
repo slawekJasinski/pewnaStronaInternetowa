@@ -440,3 +440,19 @@ textarea:focus {
 h4{
     margin: 40px 0px;
 }
+
+.hover-foto:hover {
+    display: none;
+}
+
+.hover-txt {
+    display: none;
+}
+
+.hover-foto:hover + .hover-txt{
+    padding: 30px;
+    margin: 20px;
+    border: 1px;
+    display: inline;
+    color:black;
+}
