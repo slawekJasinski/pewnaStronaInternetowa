@@ -66,7 +66,7 @@
 
                 <div class="box col-md-3 text-center">
                     <img src="images/real2.jpg" class="img-thumbnail" alt="narzedzie">
-                    <h5>JChristine Meadow</h5>
+                    <h5>Christine Meadow</h5>
                     <h6>Panująca atmosfera przyjaznego profesjonalizmu pozwala skupić się na zdobywaniu sprawności, umiejętności i wiedzy. Mądra współpraca zapewnia bezpieczeństwo treningu oraz szybki powrót do pełnej sprawności w przypadku kontuzji. Niezależnie od poziomu sportowego, każdy odnajdzie się tu doskonale.</h6>
                 </div>
 
@@ -154,7 +154,7 @@
                         <input type="text" name="text" id="text">
                         <br>
                         <br>
-                        <button type="submit" class="button button-dark" id="message">
+                        <button type="submit" class="button button-green" id="message">
                            <p>Wyślij wiadomość - odezwę się do Ciebie!</p> 
                         </button>
                     </form>
@@ -168,35 +168,34 @@
     </section>
     <section>
         <div class = "container">    
+            <h2 class="display-5 text-center">
+                Gdzie nas znaleźć?
+            </h2>
             <div class="main bg-white d-flex flex-wrap justify-content-center"></div>
                 <div class="col-md-6 justify-content-center">
                     <!-- połączenie z https://jsonplaceholder.typicode.com/posts, POST, wykonanie -->
-                    <section id="new-post">
+                    <div id="new-post">
                         <form>
-                            <div class="form-control">
-                            <label for="title">Title</label>
+                            <div>
+                            <label for="title">Twój nick</label>
                             <input type="text" id="title" name="title" />
-                            </div>
-                            <div class="form-control">
-                            <label for="content">Content</label>
+                            <label for="content">Twoja opinia</label>
                             <textarea rows="3" id="content" name="body"></textarea>
+                            <button type="submit">Dodaj opinie!</button>
                             </div>
-                            <button type="submit">ADD</button>
                         </form>
-                    </section>
+                    </div>
                 </div>
                 <div class="col-md-6 justify-content-center"></div>
                     <template id="single-post">
                         <li class="post-item">
                             <h2></h2>
                             <p></p>
-                            <button>DELETE</button>
                         </li>
                     </template>
-                    <section id="available-posts">
-                        <button>FETCH POSTS</button>
+                    <div id="available-posts">
                         <ul class="posts"></ul>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>    
