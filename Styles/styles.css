@@ -231,7 +231,13 @@ section{
 .button-dark p{
     margin: 0;
 }
+
+.button-green p{
+    margin: 0;
+}
+
 /*Tymczasowy styl dla banera*/
+
 .banner h1{
     margin-bottom: 60px;
 }
@@ -455,4 +461,8 @@ h4{
     border: 1px;
     display: inline;
     color:black;
+}
+
+#new-post button{
+    margin-top: 15px;
 }

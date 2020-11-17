@@ -22,7 +22,7 @@
     <div class="top bg-secondary text-white sticky-top"> <!-- menu górne zrealizowane jako sticky - 5d/1-->
         <div class="container">
             <a href="#" class="scrollup"></a>
-                <nav>
+            <nav>
                 <div class="logo">
                     <img src = "Images/logo.png" alt = "logo" href = "index.html">
                 </div>
@@ -151,7 +151,7 @@
                             <strong>Wiadomość</strong>
                         </label>
                         <br>
-                        <input type="text" name="text" id="text">
+                        <textarea rows="3" id="text" name="body"></textarea>
                         <br>
                         <br>
                         <button type="submit" class="button button-green" id="message">
@@ -169,24 +169,24 @@
     <section>
         <div class = "container">    
             <h2 class="display-5 text-center">
-                Gdzie nas znaleźć?
+                Opinie naszych klientów
             </h2>
             <div class="main bg-white d-flex flex-wrap justify-content-center"></div>
-                <div class="col-md-6 justify-content-center">
+                <div class="col-md-6 justify-content-center float-left">
                     <!-- połączenie z https://jsonplaceholder.typicode.com/posts, POST, wykonanie -->
                     <div id="new-post">
                         <form>
                             <div>
-                            <label for="title">Twój nick</label>
-                            <input type="text" id="title" name="title" />
-                            <label for="content">Twoja opinia</label>
-                            <textarea rows="3" id="content" name="body"></textarea>
-                            <button type="submit">Dodaj opinie!</button>
+                                <label for="title">Twój nick</label>
+                                <input type="text" id="title" name="title">
+                                <label for="content">Twoja opinia</label>
+                                <textarea rows="3" id="content" name="body"></textarea>
+                                <button type="submit">Dodaj opinię!</button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-6 justify-content-center"></div>
+                <div class="col-md-6 justify-content-center float-left">
                     <template id="single-post">
                         <li class="post-item">
                             <h2></h2>
