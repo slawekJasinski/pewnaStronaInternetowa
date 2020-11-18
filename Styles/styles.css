@@ -455,7 +455,6 @@ h4{
 }
 
 .hover-foto:hover + .hover-txt{
-    
     display: inline;
     color:black;
 }
@@ -472,4 +471,8 @@ h4{
     .hover-foto:hover+.hover-txt {
         display: inline;
     }
+}
+
+.opinions{
+    overflow: scroll;
 }

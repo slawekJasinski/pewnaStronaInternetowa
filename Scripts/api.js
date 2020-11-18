@@ -55,20 +55,23 @@ function sendHttpRequest(method, url, data) {
 }
 
 async function fetchPosts() {
-  try {
+  try 
+  {
     const responseData = await sendHttpRequest(
       'GET',
       'https://jsonplaceholder.typicode.com/posts'
     );
     const listOfPosts = responseData;
-    for (const post of listOfPosts) {
+    for (let i = 0; i < 3; i++) {
+      let post = listOfPosts[i];
+      console.log(post);
       const postEl = document.importNode(postTemplate.content, true);
       let nicknames = post.title.split(" ");
       postEl.querySelector('h2').textContent = nicknames[0].toUpperCase();
       postEl.querySelector('p').textContent = post.body;
       postEl.querySelector('li').id = post.id;
       listElement.append(postEl);
-    }
+      }
   } catch (error) {
     alert(error.message);
   }
@@ -86,7 +89,7 @@ async function createPost(title, content) {
   // fd.append('title', title);
   // fd.append('body', content);
   fd.append('userId', userId);
-
+  console.log(post);
   sendHttpRequest('POST', 'https://jsonplaceholder.typicode.com/posts', fd);
 }
 
