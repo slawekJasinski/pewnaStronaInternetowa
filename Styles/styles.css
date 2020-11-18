@@ -463,3 +463,13 @@ h4{
 #new-post button{
     margin-top: 15px;
 }
+
+@media screen and (max-width: 960px) {
+    .hover-txt {
+        display: inline;
+    }
+
+    .hover-foto:hover+.hover-txt {
+        display: inline;
+    }
+}
