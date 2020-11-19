@@ -274,8 +274,6 @@ button:active {
 .navbar{
     background-color: #6c757d;
     font-size: 1.5rem;
-    display: inline-block;
-    text-align: justify;
 }
 
 /*nav button:active, .navbar-toggler button:hover{
