@@ -265,6 +265,24 @@ section{
     line-height: 60px;
 }
 
+.navbar{
+    background-color: #6c757d;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler button:active, .navbar-toggler button:hover{
+    background:#6c757d;
+}
+
+.navbar-collapse button:active, .navbar-collapse button:active{
+    background:#6c757d;
+}
+
+.navbar-brand img{
+    height: 100px;
+    width: auto;
+}
+
 .main-menu{
     float:right;
 }
