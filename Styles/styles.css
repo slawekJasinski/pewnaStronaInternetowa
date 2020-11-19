@@ -461,7 +461,6 @@ textarea:focus {
 
 #available-posts {
     height:200px;
-    overflow: hidden;
 }
 
 .list-inline-item {
