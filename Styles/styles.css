@@ -249,7 +249,7 @@ section{
 }
 
 .top{
-    height: 100px;
+    height: 130px;
     background: #34495e;
 }
 
@@ -265,18 +265,26 @@ section{
     line-height: 60px;
 }
 
+/*button:hover,
+button:active {
+    background: #12128a;
+    border-color: #12128a;
+}*/
+
 .navbar{
     background-color: #6c757d;
     font-size: 1.5rem;
+    display: inline-block;
+    text-align: justify;
 }
 
-.navbar-toggler button:active, .navbar-toggler button:hover{
-    background:#6c757d;
+/*nav button:active, .navbar-toggler button:hover{
+    background:#6c757d !important;
 }
 
-.navbar-collapse button:active, .navbar-collapse button:active{
-    background:#6c757d;
-}
+nav button:active, .navbar-collapse button:active{
+    background:#6c757d !important;
+}*/
 
 .navbar-brand img{
     height: 100px;
@@ -453,6 +461,7 @@ textarea:focus {
 
 #available-posts {
     height:200px;
+    overflow: hidden;
 }
 
 .list-inline-item {
